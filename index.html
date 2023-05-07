@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONT AWESOME ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <ul>
+            <li class="logo">Startup 3</li>
+            <li>Products</li>
+            <li>Pricing</li>
+            <li>Community</li>
+          </ul>
+        </div>
+
+        <div class="menu dropdown">
+          <i onclick="myFunction()" class="fa-solid fa-bars dropbtn"></i>
+          <ul id="myDropdown" class="dropdown-content">
+            <li>Products</li>
+            <li>Pricing</li>
+            <li>Community</li>
+            <li>help</li>
+          </ul>
+        </div>
+
+        <div class="right">
+          <ul>
+            <li>help</li>
+            <li>Login</li>
+            <li class="btn">Sign Up</li>
+            <i class="fa-solid fa-right-to-bracket"></i>
+          </ul>
+        </div>
+      </nav>
+
+      <main>
+        <h1>The Amazing Hubble</h1>
+
+        <h2>
+          The first area of specialization in telescopes has to do with the
+          types of telescopes people use. The three designs of telescopes that
+          most people use are the Refractor
+        </h2>
+
+        <form action="">
+          <input type="text" placeholder="Your name" />
+          <input type="text" placeholder="Your email" />
+          <button onclick="alertUser(event)">Get Started</button>
+        </form>
+
+        <p>or sign up with</p>
+
+        <div class="icons"></div>
+      </main>
+    </header>
+
+    <!-- SCRIPT  -->
+    <script src="/main.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  </body>
+</html>

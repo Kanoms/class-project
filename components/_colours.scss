@@ -1,0 +1,24 @@
+$main-theme: #7272cf;
+$txt-theme: #FFF;
+$btn-col: #E93A7D;
+$grey-col: #bfc6c9;
+
+header {
+  background-color: $main-theme;
+  color: $txt-theme;
+
+
+
+  main {
+    form {
+      input {
+        &::placeholder {
+          color: $grey-col;
+        }
+      }
+    }
+  }
+}
+
+
+
